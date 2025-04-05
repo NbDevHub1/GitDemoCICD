@@ -31,7 +31,7 @@ jobs:
         uses: actions/upload-pages-artifact@v1
 
 # Deployment Job
-deployment:
+deploy:
   environment:
     name: github-pages
     url: ${{ steps.deployment.outputs.page_url }}
